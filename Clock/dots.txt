@@ -1,0 +1,11 @@
+hou_dot.style.transform = rotate((h / 24) * 360deg): The rotation of the hour dot is based on the current hour (h), which is divided by 24 (the total number of hours in a day) and multiplied by 360 degrees (a full circle). This gives the hour dot a rotation between 0 and 360 degrees, depending on the current hour.
+
+min_dot.style.transform = rotate((mi / 60) * 360deg): The rotation of the minute dot is based on the current minute (mi), which is divided by 60 (the total number of minutes in an hour) and multiplied by 360 degrees. This gives the minute dot a rotation between 0 and 360 degrees, depending on the current minute.
+
+sec_dot.style.transform = rotate((s / 60) * 360deg): The rotation of the second dot is based on the current second (s), which is divided by 60 (the total number of seconds in a minute) and multiplied by 360 degrees. This gives the second dot a rotation between 0 and 360 degrees, depending on the current second.
+
+day_dot.style.transform = rotate((d / daysInMonth(mo, y)) * 360deg): The rotation of the day dot is based on the current day (d), which is divided by the total number of days in the current month (calculated using the daysInMonth function), and multiplied by 360 degrees. This gives the day dot a rotation between 0 and 360 degrees, depending on the current day.
+
+mon_dot.style.transform = rotate((mo / 12) * 360deg): The rotation of the month dot is based on the current month (mo), which is divided by 12 (the total number of months in a year) and multiplied by 360 degrees. This gives the month dot a rotation between 0 and 360 degrees, depending on the current month.
+
+yea_dot.style.transform = rotate(((y % 100) / 100) * 360deg): The rotation of the year dot is based on the current year (y), which is divided by 100 and the remainder (%) is used. This gives the last two digits of the year, which is then divided by 100 and multiplied by 360 degrees. This gives the year dot a rotation between 0 and 360 degrees, depending on the last two digits of the current year.

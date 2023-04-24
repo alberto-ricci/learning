@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Spotify music player</title>
+  </head>
+  <body>
+    <div>
+      <div class="content">
+        <!-- Search bar -->
+        <div class="search">
+          <input type="text" placeholder="Search.." />
+        </div>
+        <!-- Top bar elements-->
+        <div class="top-bar">
+          <span class="material-symbols-rounded"> expand_more </span>
+
+          <span>Now Playing</span>
+          <span class="material-symbols-rounded"> more_horiz </span>
+        </div>
+
+        <!-- Music info section -->
+        <!-- Music images -->
+        <div class="image-wrapper">
+          <div class="music-image">
+            <img src="" />
+          </div>
+        </div>
+
+        <!-- Title and artist section-->
+        <div class="music-titles">
+          <p class="name">Song title</p>
+          <p class="artist">Artist</p>
+        </div>
+
+        <!-- song progress bar-->
+        <div class="progress-details">
+          <div class="progress-bar">
+            <span></span>
+          </div>
+          <div class="time">
+            <span class="current">0:00</span>
+            <span class="final">0:00</span>
+          </div>
+        </div>
+
+        <!-- Volume control section -->
+        <div class="volume">
+          <span class="material-symbols-rounded"> volume_mute </span>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="50"
+            class="slider"
+            id="volume"
+          />
+          <span class="material-symbols-rounded"> volume_up </span>
+        </div>
+
+        <!-- Buttons section -->
+        <div class="control-btn">
+          <span class="material-symbols-rounded" id="repeat"> repeat </span>
+          <span class="material-symbols-rounded" id="prev">
+            skip_previous
+          </span>
+          <div class="play-pause">
+            <span class="material-symbols-rounded" id="play-pause-icon">
+              play_arrow
+            </span>
+          </div>
+          <span class="material-symbols-rounded" id="next"> skip_next </span>
+          <span class="material-symbols-rounded" id="shuffle"> shuffle </span>
+        </div>
+
+        <audio src="" class="main-song"></audio>
+      </div>
+    </div>
+
+    <!-- Credits section -->
+    <div class="credits">
+      Based on these tutorials:
+      <ul>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=3jFsdp9qkjs&"
+            target="_blank"
+          >
+            How to Create a Music Player Using Html Css and Javascript -
+            Neumorphism Design
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=_QM4LSFe8fU" target="_blank">
+            Complete Music Player From Scratch w Javascript
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="./musicplayer_logic.js"></script>
+</html>

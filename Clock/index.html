@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clock and Calendar</title>
+  </head>
+
+  <body>
+    <div id="time">
+      <!--  cx: This sets the x-coordinate of the center of a circle.
+            cy: This sets the y-coordinate of the center of a circle.
+            r: This sets the radius of a circle.
+            id: This sets a unique identifier for an element in the HTML code. This can be useful for styling or manipulating the element with JavaScript.
+            fill: This sets the color or pattern used to fill an element. In this case, fill="transparent" means the circle has no fill color.
+            stroke: This sets the color used to stroke or outline an element. In this case, stroke="black" sets the color of the circle's outline to black.
+            stroke-width: This sets the width of an element's stroke or outline. In this case, stroke-width="2" sets the width of the circle's outline to 2 pixels.-->
+
+      <!-- hours panel -->
+      <div class="circle" style="--clr: #ff2972">
+        <div class="dots hou_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="hh"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="hours">00</div>
+      </div>
+      <!-- minutes panel -->
+      <div class="circle" style="--clr: #fee800">
+        <div class="dots min_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="mimi"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="minutes">00</div>
+      </div>
+      <!-- seconds panel -->
+      <div class="circle" style="--clr: #04fc43">
+        <div class="dots sec_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="ss"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="seconds">00</div>
+      </div>
+      <!-- day panel -->
+      <div class="circle" style="--clr: #1173d5">
+        <div class="dots day_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="dd"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="day">00</div>
+      </div>
+      <!-- month panel -->
+      <div class="circle" style="--clr: #edf0f3">
+        <div class="dots mon_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="momo"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="month">00</div>
+      </div>
+      <!-- year panel -->
+      <div class="circle" style="--clr: #f3ae00">
+        <div class="dots yea_dot"></div>
+        <svg>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="circle"
+            fill="transparent"
+            stroke="black"
+            stroke-width="2"
+          ></circle>
+          <circle
+            cx="70"
+            cy="70"
+            r="70"
+            id="yy"
+            fill="transparent"
+            stroke-width="2"
+          ></circle>
+        </svg>
+        <div id="year">00</div>
+      </div>
+    </div>
+
+    <!-- Credits section -->
+    <div class="credits">
+      Based on this tutorial:
+      <a href="https://www.youtube.com/watch?v=eoSfzVz9ur0" target="_blank">
+        Amazing Working Digital Clock using Html CSS SVG & Javascript | Simple
+        Javascript Project
+      </a>
+    </div>
+    <script src="./clock_logic.js"></script>
+  </body>
+</html>

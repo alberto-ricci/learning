@@ -1,0 +1,411 @@
+HTML 
+
+<!-- Main section -->
+    <div class="main-section">
+        <div class="right-section">
+            <header>
+                <h2>Alberto Ricci</h2>
+            </header>
+
+            <!-- About me section -->
+            <h4 class="section-title">About me:</h4>
+            <p>HI'm a Senior Project Manager at Toluna Corporate with extensive experience in managing marketing research projects and EU funded projects.I constantly utilize agile principles for managing my projects. I'm currently learning about Web Development, both frontend and backend. My background of studies is Political Science and International relations. I am fluent in Italian, English, and Romanian, with intermediate proficiency in Spanish and basic proficiency in French. I bring a unique combination of technical skills, project management experience, and international relations expertise to drive successful projects and contribute to team growth and success.
+
+</p>
+
+            <!-- Education section -->
+            <h4 class="section-title">Education</h4>
+                <h5 class="job-title">Professional Master’s Programme in Planning and access to European funds for Culture, Creativity and Multimedia | <span class="company">Università degli Studi di Perugia</span></h5>
+                <h6 class="job-details">2018 - 2020 | Perugia (PG), Italy</h6>
+
+                <h5 class="job-title">Master’s Degree in International Relation and Development Cooperation | <span class="company">Università per Stranieri di Perugia</span></h5>
+                <h6 class="job-details">2012 - 2015 | Perugia (PG), Italy</h6>
+
+                <h5 class="job-title">Bachelor’s Degree in International Relation | <span class="company">Università per Stranieri di Perugia</span></h5>
+                <h6 class="job-details">2008 - 2012 | Perugia (PG), Italy</h6>
+
+                <h5 class="job-title">Language high school graduation qualification | <span class="company">Istituto di istruzione superiore Teresa Confalonieri</span></h5>
+                <h6 class="job-details">2003 - 2008 | Perugia (PG), Italy</h6>
+
+            <!-- Work experience section -->
+            <h4 class="section-title">Work Experience</h4>
+            
+                <!-- Job 8 -->
+                <div class ="Job">
+                    <h5 class="job-title">Senior Project Manager <span class="company">Toluna Corporate | Marketing Research</span></h5>
+                    <h6 class="job-details">November 2016 - current | Timisoara (TS), Romania</h6>
+                    <ul class="job-responsabilities">
+                        <li>Managing marketing research projects for various clients (MR agencies, end clients, universities, associations)</li>
+                        <li>Responsibilities include managing projects from bidding stage to delivery of final data and invoicing</li>
+                        <li>Using of agile principles to gather feedback iteratively and anticipate/address potential issues</li>
+                        <li>Utilizing internal platforms and tools to script and field online surveys on a variety of subjects</li>
+                        <li>Maintaining effective communication between clients and company departments</li>
+                        <li>Mentoring and supporting new colleagues</li>
+                    </ul>
+                </div>
+                
+                <!-- Job 7 -->
+                <div class ="Job">
+                    <h5 class="job-title">Intern <span class="company">Progetto Arcadia | EU projects design and consultancy</span></h5>
+                    <h6 class="job-details">October 2019 - May 2022 | Remote, Italy</h6>
+                    <ul class="job-responsabilities">
+                        <li>Participated in various stages of EU project writing process (preliminary data research, translations, writing sections of projects)</li>
+                        <li>Assisted with drafting and management of project budgets</li>
+                        <li>Assisted with final submission of projects on official EU platforms</li>
+                    </ul>
+                </div>
+
+                <!-- Job 6 -->
+                <div class ="Job">
+                    <h5 class="job-title">Volunteer's mentor <span class="company">Zury Association | Non-profit and volunteering</span></h5>
+                    <h6 class="job-details">March 2018 - September 2018 | Timisoara (TS), Romania</h6>
+                    <ul class="job-responsabilities">
+                        <li>Mentor for six volunteers participating in European Volunteering Service project within the Erasmus program</li>
+                        <li>Regularly meeting with volunteers gathering their feedback</li>
+                        <li>Monitoring personal development during service and addressing any issues or obstacles</li>
+                        <li>Helping volunteers integrate into local community</li>
+                        <li>Facilitating communication within the volunteer group and hosting association</li>
+                        <li>Supporting volunteers in drafting EVS Youthpass self-evaluation document</li>
+                    </ul>
+                </div>
+
+                <!-- Job 5 -->
+                <div class ="Job">
+                    <h5 class="job-title">Volunteer's tutor <span class="company">Asociatia Sirinia | Non-profit and volunteering</span></h5>
+                    <h6 class="job-details">June 2016 - October 2016 | Arad (AR), Romania</h6>
+                    <ul class="job-responsabilities">
+                        <li>Tutor for ten volunteers participating in non-formal education project for disadvantaged kids and young people in Italian "Servizio Civile all'Estero" program</li>
+                        <li>Supervising daily activities of volunteers</li>
+                        <li>Providing language support</li>
+                        <li>Directly mentoring a subgroup of five volunteers gathering their feedback</li>
+                        <li>Supporting integration process with local community</li>
+                        <li>Facilitating communication in event of conflicts</li>
+                    </ul>
+                </div>
+
+                <!-- Job 4 -->
+                <div class ="Job">
+                    <h5 class="job-title">Volunteer in the European Volunteering Service (EVS) program <span class="company">Asociatia Sirinia | Non-profit and volunteering</span></h5>
+                    <h6 class="job-details">September 2015 - June 2016 | Arad, Romania</h6>
+                    <ul class="job-responsabilities">
+                        <li>Participated in non-formal education project for disadvantaged children and young people in the village</li>
+                        <li>Managing and updating project blog and other social channels of the project</li>
+                        <li>Supervising official project newsletter sent to stakeholders, the association, and local EU agencies</li>
+                    </ul>
+                </div>
+
+                <!-- Job 3 -->
+                <div class ="Job">
+                    <h5 class="job-title">Intern <span class="company">Camera di Commercio Italiana per la Romania – Camera de comerţ Italiană pentru România | Extraterritorial organisation </span></h5>
+                    <h6 class="job-details">January 2015 - April 2015 | Bucharest, Romania</h6>
+                    <ul class="job-responsabilities">
+                        <li>Assisted with issuance of "Ospitalità Italiana" certificate and efforts to combat counterfeiting of Italian products</li>
+                        <li>Helped organize networking events together with the Italian embassy and the local Italian entrepreneur community</li>
+                        <li>Conducted research and wrote articles for official website</li>
+                        <li>Published newsletter targeting potential Italian investors in Romania</li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 -->
+                <div class ="Job">
+                    <h5 class="job-title">Freelance writer <span class="company">Ecology.it | Information and communication</span></h5>
+                    <h6 class="job-details">March 2013 - August 2014 | Remote, Italy</h6>
+                    <ul class="job-responsabilities">
+                        <li>Contributed articles in Italian to a blog focused on environmental and technological issues</li>
+                        <li>Articles primarily focused on international environmental issues and politics</li>
+                    </ul>
+                </div>
+
+                <!-- Job 1 -->
+                <div class ="Job">
+                    <h5 class="job-title">Trainee <span class="company">Tavola della Pace | Non-profit and volunteering</span></h5>
+                    <h6 class="job-details">Maggio 2011 - Giugno 2011 | Perugia (PG), Italy</h6>
+                    <ul class="job-responsabilities">
+                        <li>Managed and updated website for association</li>
+                        <li>Assisted with organization of two events: "1000 Young People Meeting" o "2011 Peace March Perugia-Assisi"</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <!-- Sidebar section -->
+    <aside class="sidebar">
+        <!-- Personal data -->
+        <div class ="personal-info"> 
+            <li>Date and place of birth: Salerno (SA), Italy; 11 September 1989</li>
+            <li>Gender: Male</li>
+            <li>Citizenships: Italian/EU</li>
+        </div>
+
+        <!-- Contacts -->
+        <div class="contact-section">
+            <h6 class="sidebar-title">Contacts</h6>
+        <div>
+                <span class="contacts-section-type">Phone:</span>
+                <a class="contacts-section-value" href="tel:+3275711582">+393275711582</a> /<a href="tel:+40720916779":> +40720916779</a>
+            </div>
+            <div>
+                <span class="contacts-section-type">E-mail:</span>
+                <a class="contacts-section-value" href="mailto:ricci.alberto.89@gmail.com">ricci.alberto.89@gmail.com</a>
+            </div>
+            <div>
+                <span class="contacts-section-type">Skype:</span>
+                <a class="contacts-section-value" href="skype:albertoricci.89">albertoricci.89</a>
+            </div>
+            <div>
+                <span class="contacts-section-type">Facebook:</span>
+                <a class="contacts-section-value" href="https://www.facebook.com/ricci.alberto/">/ricci.alberto</a>
+            </div>
+            <div>
+                <span class="contacts-section-type">LinkedIn:</span>
+                <a class="contacts-section-value" href="https://www.linkedin.com/in/alberto-ricci-38097186/">/alberto-ricci-38097186</a>
+            </div>
+        </div>
+
+        <!-- Tech Skills -->
+        <div class="tech-skills-section">
+            <h6 class="sidebar-title">Tech skills</h6>
+            <ul class="sidebar-list">
+                <li><span>Python 3.x, Django, HTML5, CSS3, JS</span></li>
+                <li><span>Ms Office, G-Suite, Open Office</span></li>
+                <li><span>Firefox, Chrome, and Explorer/Edge</span></li>
+                <li><span>Windows, Linux Ubuntu, Android OS</span></li>
+                <li><span>Jira, Asana, Monday.com, Teams, Slack</span></li>
+            </ul>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="soft-skills-section">
+            <h6 class="sidebar-title">Soft skills</h6>
+            <ul class="sidebar-list">
+                <li><span>Scrum</span></li>
+                <li><span>Agile</span></li>
+                <li><span>Teamwork</span></li>
+                <li><span>Mentoring</span></li>
+                <li><span>Communication</span></li>
+                <li><span>Adaptability</span></li>    
+            </ul>
+        </div>
+
+        <!-- Languages -->
+        <div class="languages-section">
+            <h6 class="sidebar-title">Languages</h6>
+            <ul class="sidebar-list">
+                <li><span>Italian: native</span></li>
+                <li><span>English: fluent</span></li>
+                <li><span>Romanian: fluent</span></li>
+                <li><span>Spanish: Intermediate</span></li>
+                <li><span>French: Basic</span></li>    
+            </ul>
+        </div>
+
+CSS
+/* CSS HEX */
+:root {
+  --raisin-black: #161925ff;
+  --delft-blue: #23395bff;
+  --ucla-blue: #406e8eff;
+  --powder-blue: #8ea8c3ff;
+  --mint-green: #cbf7edff;
+}
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--raisin-black);
+}
+
+h2,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+/* Main section */
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 2rem;
+}
+
+.right-section {
+  flex-basis: 70%;
+  max-width: 70%;
+  margin-left: 300px; /* adjust this value based on the width of your sidebar */
+}
+
+/* Header */
+header {
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Job titles */
+.job-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.job-title .company {
+  font-weight: 400;
+}
+
+/* Job details */
+.job-details {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* Job responsibilities */
+.job-responsibilities li {
+  margin-bottom: 5px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-section {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--powder-blue);
+}
+
+.sidebar h2 {
+  font-size: 1.2em; /* or adjust the font size to your preference */
+}
+
+.sidebar ul li {
+  font-size: 1em; /* or adjust the font size to your preference */
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--raisin-black);
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: var(--ucla-blue);
+}
+
+/* Fixed typo */
+.job-responsibilities li {
+  margin-bottom: 5px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio .item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.portfolio .item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio .item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--delft-blue);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .item:hover .overlay {
+  opacity: 0.9;
+}
+
+.portfolio .item .overlay-content {
+  color: var(--mint-green);
+  text-align: center;
+  padding: 20px;
+  max-width: 80%;
+}
+
+.portfolio .item .overlay-content h3 {
+  margin-bottom: 10px;
+}
+
+.portfolio .item .overlay-content p {
+  font-size: 0.9rem;
+}
+
+.portfolio .item .overlay-content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--ucla-blue);
+  color: var(--mint-green);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio .item .overlay-content a:hover {
+  background-color: var(--powder-blue);
+}
